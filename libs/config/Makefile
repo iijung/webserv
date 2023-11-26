@@ -5,7 +5,9 @@ NAME	= libconfig.a
 LIBS	= \
 
 SRCS	= \
-	config.cpp
+	config.cpp \
+	directive.cpp \
+	directive_factory.cpp \
 
 # **************************************************************************** #
 include $(TOPDIR)/build/Rules.mk

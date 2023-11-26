@@ -4,6 +4,7 @@ NAME	= webserv
 
 LIBS	= \
 	$(TOPDIR)/libs/multiplex/libmultiplex.a \
+	$(TOPDIR)/libs/config/libconfig.a \
 	$(TOPDIR)/libs/http/libhttp.a \
 
 SRCS	= \
